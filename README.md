@@ -1,32 +1,30 @@
 # Sprint-3---DISRUPTIVE-ARCHITECTURES-IOT-IOB-GENERATIVE-IA
 
-Tecnologias Utilizadas
-Backend
+Tecnologias Utilizadas:
 
+-Backend
 Flask 3.0.0 - Framework web Python
 Flask-CORS - Habilita requisições cross-origin
 SQLite3 - Banco de dados relacional
 Python 3.11+
 
-Visão Computacional
-
+-Visão Computacional
 OpenCV 4.8 - Processamento de vídeo e imagens
 NumPy - Operações matemáticas e arrays
 Detecção por cor (HSV) - Identifica motos verdes no vídeo
 
-OCR (Reconhecimento de Placas)
-
+-OCR (Reconhecimento de Placas)
 EasyOCR 1.7.0 - Reconhecimento óptico de caracteres
 Suporta CPU (GPU opcional)
 
-Frontend
-
+-Frontend
 HTML5 + JavaScript - Dashboard interativo
 Fetch API - Requisições assíncronas
 CSS3 - Estilização dark theme
 
 
-Estrutura do Projeto
+Estrutura do Projeto:
+
 MotoMapAI/
 ├── app.py                          # Backend Flask + Dashboard
 ├── detections.db                   # Banco de dados SQLite
@@ -37,7 +35,8 @@ MotoMapAI/
 └── videos/
     └── motomap_test_video.mp4     # Vídeo de teste
 
-Instalação e Uso
+Instalação e Uso:
+
 1. Instalar Dependências
 bash# Criar ambiente virtual
 python -m venv .venv
@@ -72,10 +71,12 @@ Dashboard Web: Atualiza automaticamente a cada 10 minutos
 Console: Log de ocupações e liberações
 
 
-Endpoints da API
-MétodoEndpointDescriçãoGET/Dashboard webPOST/detectRecebe detecções do scriptGET/vagasStatus atual das vagasGET/detectionsÚltimas 200 detecçõesGET/api/statsEstatísticas geraisGET/statusStatus simplificadoPOST/clearLimpa banco de dados
+Endpoints da API:
+<img width="733" height="270" alt="image" src="https://github.com/user-attachments/assets/37844e63-3ff1-4d6f-b154-697eac138cb5" />
 
-Resultados Parciais
+
+-Resultados Parciais
+
 Funcionalidades Implementadas
 
 Detecção de Ocupação
