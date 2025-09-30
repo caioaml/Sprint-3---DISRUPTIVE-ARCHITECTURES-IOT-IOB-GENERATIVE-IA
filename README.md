@@ -72,6 +72,7 @@ Console: Log de ocupações e liberações
 
 
 Endpoints da API:
+
 <img width="733" height="270" alt="image" src="https://github.com/user-attachments/assets/37844e63-3ff1-4d6f-b154-697eac138cb5" />
 
 
