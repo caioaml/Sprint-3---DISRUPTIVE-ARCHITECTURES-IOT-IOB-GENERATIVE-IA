@@ -320,31 +320,6 @@ Sistema automatizado que:
 
 ---
 
-## 🐛 Troubleshooting
-
-### Erro: "No module named cv2"
-```bash
-pip install opencv-python
-```
-
-### Erro: NumPy incompatível
-```bash
-pip uninstall numpy
-pip install "numpy<2"
-```
-
-### Janela do vídeo não abre
-- Verifique se está rodando em ambiente gráfico (não WSL sem X11)
-- Pressione `ALT+TAB` para procurar janela
-- Use `cv2.waitKey(30)` para debug
-
-### API não responde
-- Verifique se backend está rodando: `python app.py`
-- Confirme URL: `http://127.0.0.1:5000`
-- Verifique firewall
-
----
-
 ## 📝 Comandos Úteis
 
 ```bash
@@ -361,28 +336,3 @@ python scripts/detect_vagas_fixas.py --source video.mp4 --check-interval 5
 python scripts/detect_vagas_fixas.py --source video.mp4 --save-crops ./crops
 ```
 
----
-
-## 👥 Autores
-
-Projeto desenvolvido para disciplina **Disruptive Architectures: IOT, IOB & Generative IA** - FIAP
-
----
-
-## 📄 Licença
-
-Este projeto é acadêmico e destinado a fins educacionais.
-
----
-
-## 📞 Suporte
-
-Para dúvidas:
-- Consulte a documentação técnica nos comentários do código
-- Verifique logs do console para debug
-- Dashboard mostra estatísticas em tempo real
-
----
-
-**Status**: ✅ Funcional e pronto para apresentação  
-**Data**: Setembro 2025
